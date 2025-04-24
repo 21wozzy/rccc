@@ -1,0 +1,67 @@
+# Activar colores ANSI
+autoload -U colors && colors
+
+# Prompt facherito y multicolor
+setopt PROMPT_SUBST
+PROMPT='%F{cyan}%n@%m %F{yellow}%~ %f$(git_prompt_info)%f
+%F{green}❯%f '
+
+# Autosuggestions predictivo (gris)
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+ZSH_AUTOSUGGEST_ACCEPT_ON_RIGHT_ARROW=1
+
+# Syntax highlighting (verde si válido, rojo si no)
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main)
+
+# Historial chevere
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+
+# Cursor en modo barra vertical (fachero)
+printf '\e[4 q'
+
+
+echo "┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐"
+echo "│                                                                                                                     │"
+echo "│                             ██████╗██████╗  ██████╗ ██╗    ██╗██╗     ███████╗██╗   ██╗                             │"
+echo "│                            ██╔════╝██╔══██╗██╔═══██╗██║    ██║██║     ██╔════╝╚██╗ ██╔╝                             │"
+echo "│                            ██║     ██████╔╝██║   ██║██║ █╗ ██║██║     █████╗   ╚████╔╝                              │"
+echo "│                            ██║     ██╔══██╗██║   ██║██║███╗██║██║     ██╔══╝    ╚██╔╝                               │"
+echo "│                            ╚██████╗██║  ██║╚██████╔╝╚███╔███╔╝███████╗███████╗   ██║                                │"
+echo "│                             ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚══╝╚══╝ ╚══════╝╚══════╝   ╚═╝                                │"
+echo "│                                                                                             created by crowley.     │"
+echo "└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘"
+
+
+
+
+
+echo '                                            ..............'
+echo '                                                     ..,;:ccc,.'
+echo '                                                   ......''`lxO.'
+echo '                                         .....''''..........,:ld;'
+echo '                                                    .`;;;:::;,,.x,'
+echo '                                               ..```.            0Xxoc:,.  ...'
+echo '                                           ....                ,ONkc;,;cokOdc.-'
+echo '                                          .                   OMo           .:ddo.'
+echo '                                                             dMc               :OO;'
+echo '                                                             0M.                 .:o.'
+echo '                                                             ;Wd'
+echo '                                                              ;XO,'
+echo '                                                                ,d0Odlc;,..'
+echo '                                                                    ..`,;:cdOOd::,.'
+echo '                                                                            .:d;.`:;.'
+echo '                                                                                `d,  .`'
+echo '                                                                                  ;l   ..'
+echo '                                                                                        .o'
+echo '                                                                                     c'
+echo '                                                                                     .`'
+echo '                                                                                      .'
+echo "         ig: croowleey"
+echo "     tiktok: croowleyy"
+echo "    discord: 21wozy"
+echo "   todos sangramos por igual..."
